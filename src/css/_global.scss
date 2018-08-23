@@ -1,0 +1,46 @@
+html, body, #___gatsby, #___gatsby>div {
+  height: 100%;
+}
+.height {
+  height: 100%;
+}
+.center-text {
+  text-align: center;
+}
+.justify-text {
+  text-align: justify;
+}
+.short-hr {
+  width: 200px;
+  border: 1px solid $green;
+}
+.page-header {
+  text-align: center;
+  padding: 20px 0px;
+}
+.bold-text {
+  font-weight: bold;
+}
+.right-text {
+  text-align: right;
+  font-size: 0.7em;
+}
+#nopadding {
+  padding-bottom: 0px;
+}
+.whyus-bg {
+  background-image: url(../images/whyus-bg.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.whyus>* {
+  p {
+    padding-bottom: 20px;
+  }
+  ul {
+    padding-bottom: 20px;
+    list-style: disc;
+    margin-left: 20px;
+  }
+}
